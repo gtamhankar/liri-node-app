@@ -17,13 +17,13 @@ Output: log.txt + console.
 -----------------------------
 ** Possible Inputs/outputs: **
 
-Seq No   | Output        | Input         | 
+Seq No   | Input        | Output         | 
 -------- | ------------  | -------------- | 
-1 |   Name of the venue  | liri  concert-this <artist/band name here> | 
+1  |   liri  concert-this <artist/band name here> | Name of the venue  | 
 1  |   Venue location 	 | | 
 1  |   Date of the Event (use moment to format this as "MM/DD/YYYY") 	| | 
 1  |   Formatted address | | 
-2 | Artist(s) 						| liri spotify-this-song '<song name here>' else defaults to "The Sign" by Ace of Base. | 
+2 |    liri spotify-this-song '<song name here>' else defaults to "The Sign" by Ace of Base. | Artist(s) 						| 
 2 |                                                                                       | The song's name | 
 2  |                                                                                       | A preview link of the song from Spotify | 
 2  |                                                                                       | The album that the song is from |
