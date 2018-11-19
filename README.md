@@ -9,8 +9,8 @@ Submitted On: 11/19/2018
 
 This is assignment 10: https://unc.bootcampcontent.com/UNC-Coding-Boot-Camp/UNCHILL201808FSF3/blob/master/homework/10-node/Instructions/homework_instructions.md
 
-Inputs/Files: liri.js, liriprocess.js, README.md 
-Output: log.txt + console. 
+* Inputs Files: liri.js, liriprocess.js, README.md 
+* Output: log.txt + console. 
 
 
 ### Application Specific Details:
