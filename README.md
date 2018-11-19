@@ -1,5 +1,5 @@
-# liri-Bot - node app
-ASSIGNMENT 10 - LIRI is a Language Interpretation and Recognition Interface. 
+# LIRI-Bot - node app
+Assignment 10 - LIRI is a Language Interpretation and Recognition Interface. 
 LIRI is a command line node app that takes in parameters and gives back data.
 LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies.
 
@@ -66,7 +66,7 @@ Output:
 ![GitHub Logo](/images/do_what_it_says.png)
 Format: ![Alt Text](url)
 
-		
+* For more details, Please refer to the video at >> 		
 			
 ### Features:
 ----------
@@ -85,10 +85,10 @@ Limited scope for error handling. A separate class could have been written to ha
 ### Logic:
 -------
 liri.js accepts the command line inputs/arguments and maps the input command to the corresponding task. 
-In case missing/invaid inputs, it handles the inputs to defaults or sends appropriate messages to the user.
+In case of missing/invaid inputs, it handles the inputs to defaults or sends appropriate messages to the user.
 liri.js calls the liriprocess.js by linking them using liridata object.
 Liridata object has properties that are defiend as tasks for each command.
-Each property calls the api and formats/parses the reposnse object.  
+Each property calls the api and formats/parses the response object.  
 The selected properties of the response object are sent to console and log.txt file. 
 	
 ### Run Instructions:
@@ -105,4 +105,4 @@ To run locally:
     "node-geocoder": "^3.22.0",
     "node-spotify-api": "^1.0.7",
     "request": "^2.88.0"
-4) use node liri <command> and run the program.
+4) Use node liri <command> on command line and run the program.
