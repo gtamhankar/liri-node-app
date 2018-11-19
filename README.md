@@ -66,7 +66,8 @@ Output:
 ![GitHub Logo](/images/do_what_it_says.png)
 Format: ![Alt Text](url)
 
-* For more details, Please refer to the video at >> 		
+* For more details, Please refer to the video at >> http://github.com - automatic!
+[GitHub](http://github.com)	
 			
 ### Features:
 ----------
@@ -97,7 +98,7 @@ To run locally:
 
 1) Clone or download this git repository.
 2) set spotify id  and secret key in .env file. 
-3) liriporcess.js has the api key for the node-geocoder api. pls supply this key in this file.
+3) liriporcess.js has the api key for the node-geocoder api. Please supply this key in this file.
 3) Install following packages on your machine. - 
     "dotenv": "^6.1.0",
     "geocoder": "^0.2.3",

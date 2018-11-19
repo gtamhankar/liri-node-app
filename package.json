@@ -1,0 +1,21 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "main": "Liri.js",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "geocoder": "^0.2.3",
+    "moment": "^2.22.2",
+    "node-geocoder": "^3.22.0",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
