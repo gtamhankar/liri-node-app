@@ -66,9 +66,7 @@ Output:
 ![GitHub Logo](/images/do_what_it_says.png)
 Format: ![Alt Text](url)
 
-
-### Validations:
---------------			
+		
 			
 ### Features:
 ----------
@@ -81,19 +79,30 @@ Format: ![Alt Text](url)
 
 ### Notes & Limitations:
 --------------------
-
+Limited scope for error handling. A separate class could have been written to handle response from api in case of issues.
   
-
-
 
 ### Logic:
 -------
+liri.js accepts the command line inputs/arguments and maps the input command to the corresponding task. 
+In case missing/invaid inputs, it handles the inputs to defaults or sends appropriate messages to the user.
+liri.js calls the liriprocess.js by linking them using liridata object.
+Liridata object has properties that are defiend as tasks for each command.
+Each property calls the api and formats/parses the reposnse object.  
+The selected properties of the response object are sent to console and log.txt file. 
 	
 ### Run Instructions:
 --------------
 To run locally:
 
 1) Clone or download this git repository.
-2) Run index.html in your web browser. 
-3) Use Add train panel to enter inputs or review existing train bulletin.
-4) Delete a train.
+2) set spotify id  and secret key in .env file. 
+3) liriporcess.js has the api key for the node-geocoder api. pls supply this key in this file.
+3) Install following packages on your machine. - 
+    "dotenv": "^6.1.0",
+    "geocoder": "^0.2.3",
+    "moment": "^2.22.2",
+    "node-geocoder": "^3.22.0",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.88.0"
+4) use node liri <command> and run the program.
