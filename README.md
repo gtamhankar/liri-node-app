@@ -66,8 +66,7 @@ Output:
 ![GitHub Logo](/images/do_what_it_says.png)
 Format: ![Alt Text](url)
 
-* For more details, Please refer to the video at >> http://github.com - automatic!
-[GitHub](http://github.com)	
+* For more details, Please refer to the video at images folder named Nov 19 2018 3_23 AM.webm for the complete demonstration of working application. Please download it on your machine. github may not show such large files.
 			
 ### Features:
 ----------
