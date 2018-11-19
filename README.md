@@ -20,9 +20,9 @@ Output: log.txt + console.
 Seq No   | Input        | Output         | 
 -------- | ------------  | -------------- | 
 1  |   liri  concert-this <artist/band name here> | Name of the venue  | 
-1  |   Venue location 	 | | 
-1  |   Date of the Event (use moment to format this as "MM/DD/YYYY") 	| | 
-1  |   Formatted address | | 
+1  |   | Venue location 	 | 
+1  |   | Date of the Event (use moment to format this as "MM/DD/YYYY") 	|  
+1  |   | Formatted address | 
 2 |    liri spotify-this-song '<song name here>' else defaults to "The Sign" by Ace of Base. | Artist(s) 						| 
 2 |                                                                                       | The song's name | 
 2  |                                                                                       | A preview link of the song from Spotify | 
