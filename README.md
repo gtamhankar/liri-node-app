@@ -23,11 +23,11 @@ Seq No   | Input        | Output         |
 1  |   | Venue location 	 | 
 1  |   | Date of the Event (use moment to format this as "MM/DD/YYYY") 	|  
 1  |   | Formatted address | 
-2 |    liri spotify-this-song '<song name here>' else defaults to "The Sign" by Ace of Base. | Artist(s) 						| 
+2 |    liri spotify-this-song <song name here> else defaults to "The Sign" by Ace of Base. | Artist(s) 						| 
 2 |                                                                                       | The song's name | 
 2  |                                                                                       | A preview link of the song from Spotify | 
 2  |                                                                                       | The album that the song is from |
-3 | liri movie-this '<movie name here>' else defaults to movie 'Mr. Nobody.'              | Title of the movie. | 
+3 | liri movie-this <movie name here> else defaults to movie 'Mr. Nobody.'              | Title of the movie. | 
 3  |                                                                                       | Year the movie came out. | 
 3  |                                                                                       | IMDB Rating of the movie. | 
 3 |                                                                                       | Rotten Tomatoes Rating of the movie. | 
