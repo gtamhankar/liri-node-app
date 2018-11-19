@@ -40,11 +40,20 @@ Seq No   | Input        | Output         |
 
 ### Outputs:
 --------------
-** Case 1: ** Input: liri concert-this bask
+1. Case 1: Input: liri concert-this bask
 Output: 
 
 ![GitHub Logo](/images/concert_this.png)
 Format: ![Alt Text](url)
+
+
+1. Case 2: Input: liri spotify-this-song roar
+Output: 
+
+![GitHub Logo](/images/spotify_this_song.png)
+Format: ![Alt Text](url)
+
+
 
 ### Validations:
 --------------			
