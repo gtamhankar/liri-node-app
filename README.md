@@ -17,12 +17,25 @@ Output: log.txt + console.
 -----------------------------
 ** Possible Inputs/outputs: **
 
-Input | Output
------------- | -------------
-liri  concert-this <artist/band name here> | Content from cell 2
-liri spotify-this-song '<song name here>' else defaults to "The Sign" by Ace of Base. | Content in the second column
-liri movie-this '<movie name here>' else defaults to movie 'Mr. Nobody.' | Content in the second column
-liri do-what-it-says (in random.txt file, one of the above commands) | Content in the second column
+Seq No   | Input        | Output         | 
+-------- | ------------ | -------------- | 
+1 | liri  concert-this <artist/band name here> | Name of the venue | 
+  |                                            | Venue location | 
+  |                                            | Date of the Event (use moment to format this as "MM/DD/YYYY") | 
+  |                                            | Formatted address | 
+2 | liri spotify-this-song '<song name here>' else defaults to "The Sign" by Ace of Base. | Artist(s) | 
+  |                                                                                       | The song's name | 
+  |                                                                                       | A preview link of the song from Spotify | 
+  |                                                                                       | The album that the song is from |
+3 | liri movie-this '<movie name here>' else defaults to movie 'Mr. Nobody.'              | Title of the movie. | 
+  |                                                                                       | Year the movie came out. | 
+  |                                                                                       | IMDB Rating of the movie. | 
+  |                                                                                       | Rotten Tomatoes Rating of the movie. | 
+  |                                                                                       | Country where the movie was produced. | 
+  |                                                                                       | Language of the movie. | 
+  |                                                                                       | Plot of the movie. | 
+  |                                                                                       | Actors in the movie. | 
+4 | liri do-what-it-says (in random.txt file, one of the above commands) | Content like 1/2/3 | 
                   
 
 ### Outputs:
