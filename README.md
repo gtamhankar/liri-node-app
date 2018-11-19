@@ -40,9 +40,11 @@ Seq No   | Input        | Output         |
 
 ### Outputs:
 --------------
-** Case 1: **
-_Input: liri concert-this Justin Timberlake
+** Case 1: ** Input: liri concert-this bask
 Output: 
+
+![GitHub Logo](/images/concert_this.png)
+Format: ![Alt Text](url)
 
 ### Validations:
 --------------			
