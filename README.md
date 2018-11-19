@@ -17,24 +17,24 @@ Output: log.txt + console.
 -----------------------------
 ** Possible Inputs/outputs: **
 
-Seq No   | Input        | Output         | 
--------- | ------------ | -------------- | 
-1 | liri  concert-this <artist/band name here> | Name of the venue | 
-  |                                            | Venue location | 
-  |                                            | Date of the Event (use moment to format this as "MM/DD/YYYY") | 
-  |                                            | Formatted address | 
-2 | liri spotify-this-song '<song name here>' else defaults to "The Sign" by Ace of Base. | Artist(s) | 
-  |                                                                                       | The song's name | 
-  |                                                                                       | A preview link of the song from Spotify | 
-  |                                                                                       | The album that the song is from |
+Seq No   | Output        | Input         | 
+-------- | ------------  | -------------- | 
+1 |   Name of the venue  | liri  concert-this <artist/band name here> | 
+1  |   Venue location 	 | | 
+1  |   Date of the Event (use moment to format this as "MM/DD/YYYY") 	| | 
+1  |   Formatted address | | 
+2 | Artist(s) 						| liri spotify-this-song '<song name here>' else defaults to "The Sign" by Ace of Base. | 
+2 |                                                                                       | The song's name | 
+2  |                                                                                       | A preview link of the song from Spotify | 
+2  |                                                                                       | The album that the song is from |
 3 | liri movie-this '<movie name here>' else defaults to movie 'Mr. Nobody.'              | Title of the movie. | 
-  |                                                                                       | Year the movie came out. | 
-  |                                                                                       | IMDB Rating of the movie. | 
-  |                                                                                       | Rotten Tomatoes Rating of the movie. | 
-  |                                                                                       | Country where the movie was produced. | 
-  |                                                                                       | Language of the movie. | 
-  |                                                                                       | Plot of the movie. | 
-  |                                                                                       | Actors in the movie. | 
+3  |                                                                                       | Year the movie came out. | 
+3  |                                                                                       | IMDB Rating of the movie. | 
+3 |                                                                                       | Rotten Tomatoes Rating of the movie. | 
+3  |                                                                                       | Country where the movie was produced. | 
+3  |                                                                                       | Language of the movie. | 
+3  |                                                                                       | Plot of the movie. | 
+3  |                                                                                       | Actors in the movie. | 
 4 | liri do-what-it-says (in random.txt file, one of the above commands) | Content like 1/2/3 | 
                   
 
