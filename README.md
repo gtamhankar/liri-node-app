@@ -47,12 +47,24 @@ Output:
 Format: ![Alt Text](url)
 
 
-1. Case 2: Input: liri spotify-this-song roar
+2. Case 2: Input: liri spotify-this-song roar
 Output: 
 
 ![GitHub Logo](/images/spotify_this_song.png)
 Format: ![Alt Text](url)
 
+
+3. Case 3: Input: liri movie-this coco
+Output: 
+
+![GitHub Logo](/images/movie_this.png)
+Format: ![Alt Text](url)
+
+4. Case 4: Input: liri do-what-it-says
+Output: 
+
+![GitHub Logo](/images/do_what_it_says.png)
+Format: ![Alt Text](url)
 
 
 ### Validations:
